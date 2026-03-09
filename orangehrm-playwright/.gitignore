@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+
+# Playwright
+playwright-report/
+blob-report/
+test-results/
+playwright/.cache/
+playwright/.auth/
+playwright-log.txt
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# IDE
+.idea/
+.vscode/
+.cursor/
+.history/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+dist/
+coverage/
+.nyc_output/
+*.log
